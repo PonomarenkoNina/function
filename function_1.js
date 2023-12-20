@@ -34,9 +34,9 @@ console.log(test);
 // Exercise 3
 // There is a piece of JavaScript code with variables, function definitions and function calls.
 // Find all variables, functions, arguments and parameters.
-function pet(dogName, age) {
+function dogYears(dogName, age) {
   var years = age * 7;
-  console.log(dogName + " is " + years + " years old ");
+  console.log(dogName + " is " + years + "years old");
 }
 var myDog = "Fido";
 dogYears(myDog, 4);
@@ -65,7 +65,7 @@ function speak(kind) {
     alert(defaultSound);
   }
 }
-var pet = promt("Enter a type of pet: ");
+var pet = prompt("Enter a type of pet: ");
 speak(pet);
 // Enter a type of pet: dog or cat
 
